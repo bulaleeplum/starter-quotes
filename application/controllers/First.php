@@ -10,8 +10,7 @@
  */
 class First extends Application {
 
-    function __construct()
-    {
+    function __construct() {
         parent::__construct();
     }
 
@@ -19,8 +18,7 @@ class First extends Application {
     //  The normal pages
     //-------------------------------------------------------------
 
-    function index()
-    {
+    function index() {
         $this->data['pagebody'] = 'justone';   // this is the view we want shown
         // build the list of authors, to pass on to our view
         $source = $this->quotes->all();
@@ -31,7 +29,6 @@ class First extends Application {
 
         $this->render();
     }
-
 }
 
 /* End of file Welcome.php */
