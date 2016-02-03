@@ -6,8 +6,7 @@ Codeigniter Lab for COMP4711
 ##################
 ## Members
 ##################
-krstlb, Frozenhawk, SpenserL
-        Scott Plummer
+krstlb, Frozenhawk - Scott Plummer, SpenserL
 
 ##################
 ## Coding Conventions
