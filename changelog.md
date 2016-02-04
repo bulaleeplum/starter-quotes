@@ -5,3 +5,4 @@ Changes to the lab will be details in this log file.
 - initial entry
 - fixed first link and added formatting to changelog file
 - fixed second link
+- fixed first image (sleep link)
