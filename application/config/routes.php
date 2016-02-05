@@ -54,6 +54,7 @@ $route['dunno'] = function() {
     die();
 };
 $route['(^[a-z]{4})/bingo'] = "bingo";
+$route['comp\d+/[a-zA-z0-9]*'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
