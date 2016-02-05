@@ -1,5 +1,5 @@
 # Change Log
-Changes to the lab will be details in this log file.
+Changes to the lab will be detailed in this log file.
 
 #### Feb 02 2016
 - initial entry
@@ -12,6 +12,6 @@ Changes to the lab will be details in this log file.
 - fixed third image link (show)
 
 ####Feb 05 2015
-- fixed fourth image (dunno link)
-- fixed fifth image (bingo link)
-- fixed sixth image (wisdom link)
+- fixed fourth image link (dunno)
+- fixed fifth image link (bingo)
+- fixed sixth image link (wisdom)
