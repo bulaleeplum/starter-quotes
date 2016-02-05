@@ -12,3 +12,4 @@ Changes to the lab will be details in this log file.
 
 ####Feb 05 2015
 - fixed fourth image (dunno link)
+- fixed fifth image (bingo link)

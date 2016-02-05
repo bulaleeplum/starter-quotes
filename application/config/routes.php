@@ -53,6 +53,7 @@ $route['dunno'] = function() {
     readfile($source);
     die();
 };
+$route['(^[a-z]{4})/bingo'] = "bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
