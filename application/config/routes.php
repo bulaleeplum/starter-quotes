@@ -40,7 +40,21 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-
+$route['sleep'] = "first/zzz";
+$route['lock/:any/:any'] = "welcome/shucks";
+$route['show/3'] = "first/gimme";
+$route['dunno'] = function() {
+    $source = './data/pawwwnold.jpg';
+    if (!file_exists($source)) {
+        show_404($source);
+    }
+    header('Content-type: image/jpg');
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
+$route['(^[a-z]{4})/bingo'] = "bingo";
+$route['comp\d+/[a-zA-z0-9]*'] = "wise/bingo";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
