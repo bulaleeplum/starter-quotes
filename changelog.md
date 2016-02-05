@@ -5,7 +5,8 @@ Changes to the lab will be details in this log file.
 - initial entry
 - fixed first link and added formatting to changelog file
 - fixed second link
-- fixed first image (sleep link)
+- fixed first image link (sleep)
 
 #### Feb 04 2016
-- fixed first image (lockemup link)
+- fixed second image link (lockemup)
+- fixed third image link (show)
