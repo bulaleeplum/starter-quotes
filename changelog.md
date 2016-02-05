@@ -14,3 +14,4 @@ Changes to the lab will be detailed in this log file.
 ####Feb 05 2015
 - fixed fourth image link (dunno)
 - fixed fifth image link (bingo)
+- fixed sixth image link (wisdom)
