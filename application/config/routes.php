@@ -40,9 +40,19 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-    $route['sleep'] = "first/zzz";
-    $route['lock/:any/:any'] = "welcome/shucks";
-    $route['show/3'] = "first/gimme";
+$route['sleep'] = "first/zzz";
+$route['lock/:any/:any'] = "welcome/shucks";
+$route['show/3'] = "first/gimme";
+$route['dunno'] = function() {
+    $source = './data/pawwwnold.jpg';
+    if (!file_exists($source)) {
+        show_404($source);
+    }
+    header('Content-type: image/jpg');
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
